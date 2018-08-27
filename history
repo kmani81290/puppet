@@ -1,0 +1,23 @@
+puppet help                                           
+puppet help tail -n l                                 
+puppet help | tail -n 1                               
+apt-get purge puppet puppet-common -y                 
+apt-get autoremote -y                                 
+apt-get autoremove -y                                 
+apt-get update                                        
+apt-get installl puppet-master -y                     
+apt-get install puppet-master -y                      
+apt-get install puppetmaster -y                       
+vi /etc/hostname                                      
+vi /etc/puppet/                                       
+cd /etc/puppet/                                       
+ls                                                    
+ll                                                    
+cd /var/lib/puppet/                                   
+ls                                                    
+ll                                                    
+cd /var/lib/puppet/ssl                                
+ll                                                    
+service puppetmaster stop                             
+history                                               
+grant-ubuntu-trusty-64:/var/lib/puppet/ssl#           
